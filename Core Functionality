@@ -1,0 +1,5 @@
+Code Added/Modified,Suggested Commit Message
+def add_contact(conn) function (The input and execution logic),                  Feat: Implement functionality to add a new contact
+Phone and Email regex checks (if not re.match(...)),                             Fix:  Add input validation for phone number and email fields
+sqlite3.IntegrityError handling,                                                 Fix: Handle case where phone number already exists (IntegrityError)
+"Menu option 1 (elif choice == ""1"": add_contact(conn))",                       Chore: Integrate Add Contact into the main menu
