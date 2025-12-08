@@ -1,0 +1,4 @@
+Code Added/Modified
+"import sqlite3, import re",                                                     Worked ont the initializing contacts app structure
+def connect_db() function,                                                       Worked on it to set up SQLite database connection and table creation
+"main() function structure (if __name__ == ""__main__"": menu())",Chore:         Defined main entry point for the application
