@@ -1,0 +1,2 @@
+Fix: Ensure database connection closes gracefully even if an error occurs
+In a real application, you often wrap the database connection setup in a try...finally block to guarantee conn.close() runs, preventing the database file from being locked if the app crashes. This commit adds that safety measure.
