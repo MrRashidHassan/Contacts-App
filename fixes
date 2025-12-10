@@ -1,0 +1,2 @@
+Fix: Add .strip() to all user text inputs to remove whitespace
+If a user accidentally types " John Smith " instead of "John Smith", the name will be stored with extra spaces. This fix cleans up all name and address inputs to remove leading/trailing whitespace.
