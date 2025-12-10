@@ -1,0 +1,2 @@
+Fix: Correct phone number validation to allow spaces and dashes for better UX.
+The current regex is very strict. This fix updates the re.match pattern to allow common characters like spaces, dashes, or parentheses in the input, making the validation friendlier to the user.
