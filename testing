@@ -1,0 +1,2 @@
+Fix: Updated view_contacts to handle contacts with NULL email field	
+I did this after I discovered that a blank email caused a display error.
