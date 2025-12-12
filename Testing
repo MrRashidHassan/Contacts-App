@@ -1,0 +1,2 @@
+Test: Added basic test script for phone and email regex patterns	
+I used this after I created a small separate Python file to automatically check my validation functions.
